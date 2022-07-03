@@ -1,0 +1,45 @@
+! name: Telegram
+! description: Displays official Telegram content first, then boosts public sticker sets, verified user content, e.g. verified channels by state officials, corona info channels and so on
+! public: false
+! author: Me
+
+
+! Official ones (this will also include bugs.telegram.org, core.telegram.org, etc.)
+$boost=10,site=telegram.org
+
+! Their official social networks
+/telegram/$site=twitter.com$boost=9
+/smstelegram/$site=twitter.com$boost=9
+
+! Public stickers and masks a bit boosted
+/addstickers/$site=t.me$boost=7
+/addstickers/$site=telegram.me$boost=7
+/addstickers/$site=telegram.dog$boost=7
+
+! Famous active verified user channels
+/V_Zelenskiy_official/$site=t.me$boost=6
+/zedigital/$site=t.me$boost=6
+/vitaliy_klitschko/$site=t.me$boost=6
+/emmanuelmacron/$site=t.me$boost=6
+
+! Famous active Corona info channels from governments
+/UKcoronavirusnews/$site=t.me$boost=5
+/MinisterioDaSaudeBR/$site=t.me$boost=5
+/MINSAPCuba/$site=t.me$boost=5
+/StopCoVge/$site=t.me$boost=5
+/Corona_Infokanal_BMG/$site=t.me$boost=5
+/HKFIGHTCOVID19/$site=t.me$boost=5
+/MyGovCoronaNewsdesk/$site=t.me$boost=5
+/MinisteroSalute/$site=t.me$boost=5
+/MOHreport/$site=t.me$boost=5
+/mohgovjordan/$site=t.me$boost=5
+/coronavirus2020_kz/$site=t.me$boost=5
+/RshKRCOV/$site=t.me$boost=5
+/cprckkm/$site=t.me$boost=5
+/ncdcgov/$site=t.me$boost=5
+/stopcoronavirusrussia/$site=t.me$boost=5
+/LiveWellMOH/$site=t.me$boost=5
+/govsg/$site=t.me$boost=5
+/sanidadgob/$site=t.me$boost=5
+/GouvTG/$site=t.me$boost=5
+/COVID19_Ukraine/$site=t.me$boost=5
