@@ -1,6 +1,6 @@
 ! name: Telegram
 ! description: Displays official Telegram content first, then boosts public sticker sets, verified user content, e.g. verified channels by state officials, corona info channels and so on
-! public: false
+! public: true
 ! author: Me
 
 
